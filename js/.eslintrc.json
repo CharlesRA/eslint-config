@@ -1,0 +1,91 @@
+{
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true
+	},
+	"globals": {
+		"exports": true,
+		"require": true,
+		"process": true,
+		"assert": true
+	},
+	"rules": {
+		"semi": 2,
+		"eqeqeq": [2, "always", {"null": "ignore"}],
+		"no-eq-null": 0,
+		"no-eval": 2,
+		"no-unused-expressions": [
+			2,
+			{
+				"allowShortCircuit": true
+			}
+		],
+		"guard-for-in": 2,
+		"wrap-iife": [2, "inside"],
+		"linebreak-style": [2, "unix"],
+		"no-loop-func": 2,
+		"no-multi-str": 2,
+		"no-caller": 2,
+		"no-empty": [
+			2,
+			{
+				"allowEmptyCatch": true
+			}
+		],
+		"no-new": 0,
+		"no-plusplus": 0,
+		"strict": 0,
+		"no-undef": 2,
+		"no-unused-vars": 2,
+		"max-depth": [2, 4],
+		"max-statements": [2, 150],
+		"keyword-spacing": [2, {}],
+		"space-infix-ops": 2,
+		"array-bracket-spacing": [2, "never"],
+		"comma-style": [2, "last"],
+		"camelcase": [
+			2,
+			{
+				"properties": "never"
+			}
+		],
+		"brace-style": [
+			2,
+			"stroustrup",
+			{
+				"allowSingleLine": true
+			}
+		],
+		"eol-last": 1,
+		"one-var": [2, "never"],
+		"quote-props": [
+			2,
+			"consistent",
+			{
+				"keywords": true
+			}
+		],
+		"key-spacing": [
+			2,
+			{
+				"beforeColon": false,
+				"afterColon": true,
+				"mode": "minimum"
+			}
+		],
+		"no-with": 2,
+		"no-multiple-empty-lines": 2,
+		"no-mixed-spaces-and-tabs": 2,
+		"no-trailing-spaces": 2,
+		"quotes": [2, "double"],
+		"indent": ["error", "tab"],
+		"max-len": [
+			1,
+			120,
+			{
+				"ignoreComments": true
+			}
+		]
+	}
+}
